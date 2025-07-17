@@ -15,6 +15,27 @@ This project documents the full process of upgrading a home's internal Ethernet 
 
 ---
 
+## Tools Used
+
+- RJ45 crimping tool  
+- Punch-down tool  
+- Wire stripper  
+- Keystone jacks  
+- Wall plates  
+- Ethernet cable tester  
+- USB-C to Ethernet adapter  
+- Smartphone for validation
+
+---
+
+## Notes
+
+- All installations reused legacy coaxial conduits, avoiding new wall drilling.  
+- Static IP assignments reserved in DHCP for structured topology (future).  
+- Ethernet performance verified with Speedtest app under real-world load.
+
+---
+
 ## Photo Log
 
 ### 1. Removal of Old Wall Plate
@@ -92,26 +113,9 @@ The phone was connected via USB-C to Ethernet adapter using the newly installed 
 <img src="images/11-speedtest1.jpg" alt="11-speedtest1" width="300"/>
 <img src="images/12-speedtest2.jpg" alt="12-speedtest2" width="300"/>
 
-Live benchmark results show stable 200+ Mbps download throughput on the phone using the wired connection—validating full operational status of the Ethernet drop.
+Live benchmark results show stable 90+ Mbps download throughput on the phone using the wired connection—validating full operational status of the Ethernet drop.
 
 ---
 
-## Tools Used
 
-- RJ45 crimping tool  
-- Punch-down tool  
-- Wire stripper  
-- Keystone jacks  
-- Wall plates  
-- Ethernet cable tester  
-- USB-C to Ethernet adapter  
-- Smartphone for validation
-
----
-
-## Notes
-
-- All installations reused legacy coaxial conduits, avoiding new wall drilling.  
-- Static IP assignments reserved in DHCP for structured topology (future).  
-- Ethernet performance verified with Speedtest app under real-world load.
 
