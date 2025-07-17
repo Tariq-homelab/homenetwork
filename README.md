@@ -30,7 +30,7 @@ This project documents the process of installing structured Ethernet cabling and
 ## Conduit and Cabling Notes
 
 - **Wiring standard:** T568B on all terminations
-- Cables routed through existing **cable TV conduits**, avoiding new drilling
+- Cables routed through existing **satellite TV conduits** (Arabic: *qassam*, i.e., junction box), avoiding new drilling
 - Room ends terminated with RJ45 plugs; wall outlets terminated with keystone jacks
 
 ---
@@ -67,41 +67,39 @@ This project documents the process of installing structured Ethernet cabling and
 
 ## Photos
 
-1. **Wall routing and initial crimping**  
+1. **Initial cable prep and conduit routing**  
    ![](images/20250517_174527.jpg)
 
-2. **Punchdown into keystone**  
+2. **Punching down Cat6 cable into keystone jack**  
+   *(Strain relief boot visible — can't remember why it was added here)*  
    ![](images/20250517_175530.jpg)
 
-3. **RJ45 crimp and layout**  
-   ![](images/20250517_175533.jpg)
-
-4. **Keystone jack and tester connected**  
+3. **Testing keystone wiring using Ethernet cable tester**  
    ![](images/20250517_192301.jpg)
 
-5. **Punchdown close-up**  
+4. **Close-up view of keystone punchdown**  
    ![](images/20250518_031028.jpg)
 
-6. **Cable management and testing prep**  
+5. **Crimping RJ45 plug for device-side termination**  
    ![](images/20250518_031131.jpg)
 
-7. **Tester alignment check**  
+6. **RJ45 plug alignment before crimp**  
    ![](images/20250518_031323.jpg)
 
-8. **Final test before wall mount**  
+7. **Final visual inspection before mounting wall plate**  
    ![](images/20250518_031449.jpg)
 
-9. **Keystone seated into plate**  
+8. **Completed keystone snapped into wall plate**  
    ![](images/20250518_031457.jpg)
 
-10. **Wall-mounted port testing**  
-    ![](images/20250518_051442.jpg)
+9. **Testing wall-mounted port with Ethernet cable tester**  
+   ![](images/20250518_051442.jpg)
 
-11. **Speedtest result via phone**  
-    ![](images/Screenshot_20250518_052729_Speedtest.jpg)
-
-12. **Wall plate fully installed**  
+10. **Wall plate fully mounted and finished**  
     ![](images/20250518_052810.jpg)
 
-13. **Main terminal: UGREEN unmanaged switch inside wall junction box**  
+11. **Speedtest result via phone with USB-C Ethernet adapter**  
+    ![](images/Screenshot_20250518_052729_Speedtest.jpg)
+
+12. **Main terminal: UGREEN unmanaged switch mounted at junction box**  
     ![](images/20250717_062802.jpg)
