@@ -1,87 +1,98 @@
 # Home Ethernet Network Upgrade
 
-This project documents the process of upgrading a home's internal Ethernet wiring using repurposed satellite conduits, wall-mounted keystone jacks, and an unmanaged switch. The goal was to restore reliable wired connectivity across multiple rooms and validate performance through testing.
+This project documents the full process of upgrading a home's internal Ethernet wiring using existing satellite conduits, wall-mounted keystones, and an unmanaged switch. The goal was to restore reliable, wired connectivity across rooms and verify performance through live testing.
 
 ---
 
 ## Project Summary
 
-- **Objective:** Extend wired network access using CAT6 cabling and RJ45 wall plates.
-- **Conduit:** Legacy coaxial conduit routed to a central junction.
-- **Switch:** UGREEN 5-Port Gigabit Unmanaged Switch (uplinked to a 5G router).
+- **Objective:** Extend wired network access to multiple rooms using CAT6 cabling and RJ45 wall plates.
+- **Conduits Used:** Repurposed satellite TV cable conduits (junction box-based drop).
+- **Switch:** UGREEN 5-Port Gigabit Unmanaged Ethernet Switch (connected to a 5G router as the uplink).
 - **Cable Type:** CAT6 UTP.
-- **Termination:** RJ45 plug (device side) and punch-down keystone jack (wall side).
-- **Validation:** Cable tester and Ethernet speed tests via USB-C adapter on mobile.
+- **Termination:** RJ45 plug and keystone punch-down.
+- **Validation:** Physical connection testing and speed benchmark via USB-C to Ethernet on smartphone.
 
 ---
 
 ## Photo Log
 
 ### 1. Removal of Old Wall Plate
-![1-remove old plate](images/1-remove%20old%20plate.jpg)  
-Old faceplate removed to expose legacy coaxial conduit reused for Ethernet routing.
+<img src="images/1-remove%20old%20plate.jpg" alt="1-remove old plate" width="500"/>
+
+Initial step involved removing an old faceplate to expose the wall conduit used for coaxial cabling. This conduit was reused for running the Ethernet line.
 
 ---
 
-### 2. Keystone and Wall Plate Preparation
-![2-showcase of wallplate and keystone](images/2-showcase%20of%20wallplate%20and%20keystone.jpg)  
-CAT6-compatible keystone jack aligned with modular wall plate for clean in-wall Ethernet termination.
+### 2. Keystone Jack Prepared and Aligned with Wall Plate
+<img src="images/2-showcase%20of%20wallplate%20and%20keystone.jpg" alt="2-showcase of wallplate and keystone" width="500"/>
+
+A CAT6-compatible keystone jack was aligned with the modular wall plate. This type of setup enables a clean and standardized RJ45 interface for in-wall Ethernet drops.
 
 ---
 
-### 3. Pair Separation and T568B Positioning
-![3-preparing for punch down](images/3-preparing%20for%20punch%20down.jpg)  
-Twisted pairs untwisted and positioned according to T568B wiring standard in preparation for termination.
+### 3. Wire Separation and Pair Positioning
+<img src="images/3-preparing%20for%20punch%20down.jpg" alt="3-preparing for punch down" width="500"/>
+
+The twisted pairs were untwisted and aligned according to the T568B wiring standard before punch-down termination.
 
 ---
 
-### 4. Punch-Down Termination
-![4-punch-down](images/4-punch-down.jpg)  
-Conductors punched down securely using proper tool.  
-*Note: RJ45 rubber boot visible—purpose unclear during this stage.*
+### 4. Punch-Down Termination of Keystone Jack
+<img src="images/4-punch-down.jpg" alt="4-punch-down" width="500"/>
+
+Using a punch-down tool, wires were secured into the keystone.  
+*A rubber RJ45 boot is visible in this image — cannot recall why it was included here.*
 
 ---
 
-### 5. Keystone Connected to Wall Plate
-![5-keystone connected to wallplate](images/5-keystone%20connected%20to%20wallplate.jpg)  
-Fully terminated keystone clipped into the wall plate assembly.
+### 5. Keystone Fully Connected to the Wall Plate
+<img src="images/5-keystone%20connected%20to%20wallplate.jpg" alt="5-keystone connected to wallplate" width="500"/>
+
+Once wired, the keystone was clipped securely into the wall plate.
 
 ---
 
-### 6. Wall Plate Installed into Junction Box
-![6-installation of wallplate](images/6-installation%20of%20wallplate.jpg)  
-Wall plate secured onto the junction box. Drywall marks from prior installations remain visible.
+### 6. Wall Plate Screwed into Position
+<img src="images/6-installation%20of%20wallplate.jpg" alt="6-installation of wallplate" width="500"/>
+
+The wall plate was mounted back onto the junction box. Painting and drywall marks from previous installation are visible.
 
 ---
 
-### 7. Final Installation View
-![7-final wallplate state](images/7-final%20wallplate%20state.jpg)  
-Completed and operational wall-mounted Ethernet port.
+### 7. Final Appearance After Installation
+<img src="images/7-final%20wallplate%20state.jpg" alt="7-final wallplate state" width="500"/>
+
+A clean, finished wall plate with Ethernet port is now available for use.
 
 ---
 
-### 8. Ethernet Drops Connected to Switch
-![8-unmanaged-switch-cable-drop](images/8-unmanaged-switch-cable-drop.jpg)  
-All room drops converge at a central junction box patched into a UGREEN unmanaged switch, uplinked to the main router.
+### 8. Central Drop to Unmanaged Switch
+<img src="images/8-unmanaged-switch-cable-drop.jpg" alt="8-unmanaged-switch-cable-drop" width="500"/>
+
+All room drops converge at a central junction (repurposed satellite box) where they are patched into an unmanaged UGREEN 5-Port Gigabit switch. The switch uplinks to the 5G router, providing gigabit Internet across endpoints.
 
 ---
 
-### 9. Custom Patch Cable Fabrication
-![9-patch cable created for testing](images/9-patch%20cable%20created%20for%20testing.jpg)  
-RJ45 plug crimped using T568B pinout, tested for continuity. Used for endpoint testing.
+### 9. Patch Cable Fabricated for Testing
+<img src="images/9-patch%20cable%20created%20for%20testing.jpg" alt="9-patch cable created for testing" width="500"/>
+
+A patch cable was crimped using the T568B standard and verified using a cable tester. This cable was used for endpoint testing and validation.
 
 ---
 
-### 10. USB-C Ethernet Adapter Test Setup
-![10-patch cable connected to ethernet to usb c for phone speed test](images/10-patch%20cable%20connected%20to%20ethernet%20to%20usb%20c%20for%20phone%20speed%20test.jpg)  
-Smartphone connected via USB-C to Ethernet adapter using the completed Ethernet run.
+### 10. Ethernet-to-USB-C Adapter in Use for Smartphone Testing
+<img src="images/10-patch%20cable%20connected%20to%20ethernet%20to%20usb%20c%20for%20phone%20speed%20test.jpg" alt="10-ethernet to usb c adapter" width="500"/>
+
+The phone was connected via USB-C to Ethernet adapter using the newly installed line.
 
 ---
 
-### 11–12. Speed Test Results (Phone via Ethernet)
-![11-speedtest1](images/11-speedtest1.jpg)  
-![12-speedtest2](images/12-speedtest2.jpg)  
-Real-world benchmarks show consistent 200+ Mbps throughput, validating the Ethernet connection.
+### 11–12. Speed Test Results (Phone Over Ethernet)
+<img src="images/11-speedtest1.jpg" alt="11-speedtest1" width="300"/>
+<img src="images/12-speedtest2.jpg" alt="12-speedtest2" width="300"/>
+
+Live benchmark results show stable 200+ Mbps download throughput on the phone using the wired connection—validating full operational status of the Ethernet drop.
 
 ---
 
@@ -90,15 +101,17 @@ Real-world benchmarks show consistent 200+ Mbps throughput, validating the Ether
 - RJ45 crimping tool  
 - Punch-down tool  
 - Wire stripper  
-- Wall plates + keystone jacks  
+- Keystone jacks  
+- Wall plates  
 - Ethernet cable tester  
 - USB-C to Ethernet adapter  
-- Smartphone (testing endpoint)
+- Smartphone for validation
 
 ---
 
 ## Notes
 
-- No additional wall drilling was required; existing coaxial conduits were repurposed.
-- DHCP reservations planned for consistent network addressing.
-- Successful validation through wired benchmarks confirms stable drop performance.
+- All installations reused legacy coaxial conduits, avoiding new wall drilling.  
+- Static IP assignments reserved in DHCP for structured topology (future).  
+- Ethernet performance verified with Speedtest app under real-world load.
+
