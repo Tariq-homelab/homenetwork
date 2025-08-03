@@ -91,7 +91,7 @@ A clean, finished wall plate with Ethernet port is now available for use.
 ### 8. Central Drop to Unmanaged Switch
 <img src="images/8-unmanaged-switch-cable-drop.jpg" alt="8-unmanaged-switch-cable-drop" width="500"/>
 
-All room drops converge at a central junction (repurposed satellite box) where they are patched into an unmanaged UGREEN 5-Port Gigabit switch. The switch uplinks to the 5G router, providing gigabit Internet across endpoints.
+All room drops converge at a central junction where they are patched into an unmanaged UGREEN 5-Port Gigabit switch. The switch uplinks to the 5G router, providing gigabit Internet across endpoints.
 
 ---
 
